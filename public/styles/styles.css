@@ -1,0 +1,278 @@
+/*home page*/
+body {
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 24%, rgba(29, 189, 161, 1) 63%);
+}
+
+header {
+    top: 0;
+    left: 0;
+    right: 0;
+	height: 50px;
+	box-shadow: 0 0 15px 0  #f29909;
+}
+
+header li {
+	float: right;
+	margin-right: 30px;
+	list-style-type: none;	
+}
+
+header li a, .member-name {
+	text-decoration: none;
+	display: inline-block;
+	font-family: 'Alata', sans-serif;
+	font-size: 16px;
+	padding-top: 10px;
+	color: #f29909
+}
+header li a:hover {
+	color: rgba(47, 128, 143, 0.822);
+}
+.headerText{
+	color: white
+}
+
+.title {
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 75px;
+	color: #eb5814; 
+	margin-left: 15px;
+}
+
+.word {
+	margin-left: 250px;
+	width: 400px;
+	height: 40px;
+	font-family: 'Alata', sans-serif;
+	font-size: 18px;	
+	border-radius: 7px;
+	border: none;
+	font-style: italic;
+	padding-left: 8px;
+}
+#myList {
+	font-family: 'Alata', sans-serif;
+	font-size: 18px;
+	height: 45px;
+	border-radius: 7px;
+	border: none;
+}
+
+.word:focus {
+	box-shadow: 0 0 5px 5px hsl(64, 94%, 70%); 
+}
+
+#myList:focus {
+	box-shadow: 0 0 5px 5px hsl(64, 94%, 70%); 
+	
+}
+.search-wrapper {
+	display: inline-block;
+	margin-left: 100px;
+}
+.button {
+	text-decoration: none;
+	color: white;
+	background: rgb(66, 35, 243);
+	padding: 15px 40px;
+	border-radius: 6px;
+	font-weight: normal;
+	text-transform: uppercase;
+	transition: all 0.2s ease-in-out;
+	margin-right: 20px;
+	border: none;
+  }
+  
+.glow-button:hover {
+	color: white;
+	box-shadow: 0 0 5px 5px rgb(66, 35, 243);
+}
+
+.button {
+	text-decoration: none;
+	color: white;
+	background: rgb(66, 35, 243);
+	padding: 15px 40px;
+	border-radius: 6px;
+	font-weight: normal;
+	text-transform: uppercase;
+	transition: all 0.2s ease-in-out;
+	margin-right: 20px;
+	border: none;
+  }
+  
+.glow-button:hover {
+	color: white;
+	box-shadow: 0 0 5px 5px rgb(66, 35, 243);
+}
+
+.image {
+	float: right;
+	margin-right: 200px;
+}
+.card {
+	display: inline-flex;
+}
+.cardDiv {
+    box-shadow: 0 3px 3px  rgb(24, 24, 22);
+	max-width: 300px;
+	text-align: center;
+	margin-left: 50px;
+	border-radius: 8px;
+	background-color: rgb(245, 245, 181);
+	margin-top: 15px;
+}
+.titleDiv {
+	display:inline;
+}
+.card-title {
+	font-family: 'Alata', sans-serif;
+	color: rgb(0, 0, 0);
+	background-color: rgb(247, 225, 30);
+	width: 300px;
+	border: none;
+	height: 35px;
+	font-size: 20px;
+	padding-top: 5px;
+	border-radius: 5px;
+	margin-top: 0;
+}
+
+.card img {
+	width: 200px;
+	height: 200px;
+}
+.cardDiv p {
+	font-size: 18px;
+}
+#speaker {
+	height: 40px;
+	width: 40px;
+	border-radius: 5px;
+	border: none;
+}
+
+/*login page */
+
+
+/* h4 {
+	text-align: center;
+	color: blue;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+
+.form-wrapper {
+	position: absolute;
+	margin: 15px 50px 15px;
+	text-align: center;
+}
+
+.email-wrapper {
+	margin-bottom: 15px;
+}
+
+#email-input, #password-input {
+	height: 30px;
+	width: 200px;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.btn {
+	position: absolute;
+	margin: 140px 100px  15px;
+	text-align: center;
+	border-radius: 30px;
+	height: 50px;
+	width: 100px;
+	font-size: 20px;
+	color: white;
+	border: none;
+	background-color: rgb(137, 12, 187);
+} */
+
+/*dashboard page */
+
+
+
+.save {
+	margin-left: 40px;
+	text-align: justify;
+	padding: 10px 15px;
+}
+
+/*signup page */
+
+
+
+
+#email, #password {
+	height: 30px;
+	width: 200px;
+	border-radius: 5px;
+	padding: 5px;
+	font-family: 'Alata', sans-serif;
+}
+
+.signup-wrapper {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	border-radius: 10px;
+	box-shadow: 0 0 15px 0 #f29909;
+	margin-left: 20px;
+  }
+
+
+  #email-input, #password-input {
+	height: 30px;
+	width: 200px;
+	border-radius: 5px;
+	padding: 5px;
+}
+#email, #password{
+	width: 250px;
+	height: 30px;
+}
+.btn btn-default, .saveA{
+	font-family: 'Alata', sans-serif;
+}
+/*Login Page */
+.login-wrapper {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	border-radius: 10px;
+	box-shadow: 0 0 15px 0 #f29909;
+	margin-left: 20px;
+  }
+  .btn btn-primary, .saveA, .forgot{
+	font-family: 'Alata', sans-serif;
+}
+.forgot{
+	color: white;
+}
+#email-input, #password-input{
+	width: 250px;
+	height: 30px;
+}
+
+/* forgot page*/
+.text, .submit{
+	font-family: 'Alata', sans-serif;
+}
+.forgot-wrapper {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	border-radius: 10px;
+	box-shadow: 0 0 15px 0 #f29909;
+	margin-left: 20px;
+  }
+  #input_text{
+	  height: 30px;
+	  width: 450px;
+  }

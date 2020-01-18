@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Alata|Fredericka+the+Great&display=swap" rel="stylesheet">
+</head>
+
+<body class="dashboard">
+  <header>
+    <nav>
+      <ul>
+        <li><a class='headerText' href="./login.html">LOG IN</a></li>
+        <li><a class='headerText' href="/logout">LOG OUT</a></li>
+        <li><a class='headerText' href='./signup.html'>New around here? Sign up</a></li>
+        <button class='saveA' class='mainB'>Saved
+          Words</button>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero is-primary is-medium">
+    <div class="hero">
+      <div class="container">
+        <h1 class="title">
+          WhAt iN tHe WoRd
+        </h1>
+        <h2>Welcome <span class="member-name"></span></h2>
+
+        Logout
+        </a>
+      </div>
+    </div>
+  </section>
+  <div class="search-wrapper">
+    <input id="input_text" placeholder="Type your word..." class='word' type="text">
+    <select id="myList">
+      <option value="English">English</option>
+      <option value="French">French</option>
+      <option value="Japanese">Japanese</option>
+      <option value="Spanish">Spanish</option>
+      <option value="Iceland">Icelandic</option>
+    </select>
+    <button class="button glow-button" id="search1">Search</button>
+  </div>
+
+  <div class="card">
+  </div>
+
+  <script src="artyom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/dashboard.js"></script>
+
+
+</body>
+
+</html>
