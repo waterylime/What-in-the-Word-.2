@@ -10,4 +10,4 @@ So that I can under stand what I am reading.
 API Links 
 
 
-
+https://whatintheword.herokuapp.com
